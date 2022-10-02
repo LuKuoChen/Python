@@ -7,7 +7,7 @@ data = data['有價證券代號及名稱'][1:967]
 name = [] 
 number = []
 for stock in data:
-    stockid = stock[:4]〔方案選單〕 
+    stockid = stock[:4]
     name.append(stock)
     number.append(stockid)
 name = p.DataFrame(name, columns=['股票']).astype(str)
