@@ -17,3 +17,5 @@ name.to_excel('上市股追蹤.xlsx', sheet_name='上市股', index=False)
 
 with p.ExcelWriter('上市股追蹤.xlsx', mode='a',engine="openpyxl", if_sheet_exists='overlay') as writer:
     number.to_excel(writer, sheet_name='上市股', index=False, startcol=1)
+
+#123
